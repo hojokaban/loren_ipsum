@@ -9,7 +9,6 @@ header{
   height: 70px;
   width: 100%;
   background-color: #EC715F;
-  color: #FAFAFA;
 }
 header .head-icon{
 	height: 70px;
@@ -26,9 +25,30 @@ header ul li{
 	margin: 0 30px;
 	line-height: 70px;
 }
+header a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
 
 .container{
   width: 1024px;
   margin: 0 auto;
+}
+
+/* main-visual  */
+.main-visual{
+	height: 650px;
+	padding-top: 200px;
+	background-image: url("img/mv.png");
+	background-size: cover;
+	color: #FAFAFA;
+	text-align: center;
+}
+.main-visual h1{
+	font-size: 64px;
+}
+.main-visual p{
+	margin-top: 10px;
+	font-size: 20px;
 }
 
