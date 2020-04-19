@@ -4,9 +4,27 @@
   box-sizing: border-box;
 }
 
-.header{
+/* header  */
+header{
+  height: 70px;
+  width: 100%;
   background-color: #EC715F;
   color: #FAFAFA;
+}
+header .head-icon{
+	height: 70px;
+}
+header nav{
+	float: right;
+}
+header ul{
+	list-style: none;
+}
+header ul li{
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 30px;
+	line-height: 70px;
 }
 
 .container{
