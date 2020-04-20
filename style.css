@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -49,8 +49,8 @@ p{
 
 /* header  */
 header{
-  height: 70px;
-  background-color: #EC715F;
+	height: 70px;
+	background-color: #EC715F;
 }
 header .head-icon{
 	height: 70px;
@@ -70,6 +70,9 @@ header ul li{
 header a{
 	text-decoration: none;
 	color: #FAFAFA;
+}
+.fa-bars{
+	display: none;
 }
 
 .head-container{
@@ -124,6 +127,11 @@ header a{
 }
 .introduction{
 	max-width: 512px;
+	width: 100%;
+}
+.introduction-text{
+	max-width: 512px;
+	text-align: left;
 }
 .man-image{
 	border-radius: 50%;
@@ -159,18 +167,69 @@ footer{
 
 /* レスポンシブ対応  */
 @media screen and (max-width:767px){
+	header{
+		height: 50px;
+	}
+	header .head-icon{
+		height: 50px;
+	}
 	header ul{
 		display: none;
 	}
+	.bar-box{
+		height: 40px;
+		width: 40px;
+		margin: 5px 0;
+		border: #FAFAFA solid 1px;
+		position: relative;
+	}
+	.fa-bars{
+		font-size: 30px;
+		display: inline-block;
+		color: #FAFAFA;
+		position: absolute;
+		top: 5px;
+		right: 6px;
+	}
 	.float{
 		float: none;
-		margin: 30px auto;
+	}
+	.disappear{
+		display: none;
+	}
+	.open-right{
+		margin: auto;
+	}
+	.open-bottom{
+		margin: auto;
+	}
+	.main-visual h1{
+		font-size: 40px;
+	}
+	.main-visual h2{
+		font-size: 18px;
 	}
 	.body{
 		margin-top: 60px;
 	}
+	.strength{
+		margin: 5px auto;
+	}
+	.introduction{
+		margin: auto;
+	}
+	.introduction-text{
+		text-align: center;
+		margin: auto;
+	}
+	h4{
+		margin-top: 20px;
+	}
 	.container{
 		width: 90%;
 		margin: 0 auto;
+	}
+	.address{
+		margin: auto;
 	}
 }
