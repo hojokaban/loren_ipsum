@@ -149,3 +149,12 @@ header a{
 .address i{
 	font-size: 50px;
 }
+
+/* footer  */
+footer{
+	background-color: #EC715F;
+	height: 60px;
+	color: #FAFAFA;
+	text-align: center;
+	line-height: 60px;
+}
