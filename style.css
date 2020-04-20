@@ -15,11 +15,33 @@
 	height: 3px;
 	background-color: #EC715F;
 }
+.title{
+	padding: 90px 0;
+	text-align: center;
+}
 h3{
 	font-size: 32px;
 }
 h4{
 	font-size: 20px;
+}
+p{
+	font-size: 16px;
+}
+.grey{
+	background-color: #ECEFF1;
+}
+.body{
+	margin: 30px auto;
+}
+.open-right{
+	margin-right: 10px;
+}
+.open-right2{
+	margin-right: 20px;
+}
+.open-bottom{
+	margin-bottom: 10px;
 }
 
 /* header  */
@@ -65,47 +87,22 @@ header a{
 .main-visual h1{
 	font-size: 64px;
 }
-.main-visual p{
+.main-visual h2{
 	margin-top: 10px;
 	font-size: 20px;
 }
 
 /* Portfolio  */
-.portfolio{
-	background-color: #ECEFF1;
-	color: #000;
-	padding: 90px 0;
-	text-align: center;
-}
-.portfolio p{
-	font-size: 16px;
-}
 .big-box{
 	width: 920px;
-	margin: 30px auto 0 auto;
 }
 .box{
 	float: left;
 }
-.open-right{
-	margin-right: 10px;
-}
-.open-bottom{
-	margin-bottom: 10px;
-}
 
 /* Feature  */
-.feature{
-	color: #000;
-	padding: 90px 0;
-	text-align: center;
-}
-.feature p{
-	font-size: 16px;
-}
 .strengths{
 	width: 980px;
-	margin: 30px auto 90px auto;
 }
 .strength{
 	float: left;
@@ -122,17 +119,7 @@ header a{
 }
 
 /* Profile  */
-.profile{
-	background-color: #ECEFF1;
-	color: #000;
-	padding: 90px 0;
-	text-align: center;
-}
-.profile p{
-	font-size: 16px;
-}
 .man{
-	margin: 30px auto 90px auto;
 	width: 1024px;
 }
 .introduction{
@@ -143,4 +130,22 @@ header a{
 	border-radius: 50%;
 	width: 250px;
 	height: 250px;
+}
+
+/* Contact  */
+.addresses{
+	width: 800px;
+}
+.address{
+	float: left;
+	width: 400px;
+}
+.address-title{
+	margin-bottom: 5px;
+}
+.space{
+	margin-top: 20px;
+}
+.address i{
+	font-size: 50px;
 }
