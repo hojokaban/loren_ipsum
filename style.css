@@ -43,11 +43,13 @@ p{
 .open-bottom{
 	margin-bottom: 10px;
 }
+.float{
+	float: left;
+}
 
 /* header  */
 header{
   height: 70px;
-  width: 100%;
   background-color: #EC715F;
 }
 header .head-icon{
@@ -70,9 +72,10 @@ header a{
 	color: #FAFAFA;
 }
 
-.container{
+.head-container{
 	margin: 0 auto;
-	width: 1024px;
+	max-width: 1024px;
+	width: 90%;
 }
 
 /* main-visual  */
@@ -94,18 +97,14 @@ header a{
 
 /* Portfolio  */
 .big-box{
-	width: 920px;
-}
-.box{
-	float: left;
+	max-width: 920px;
 }
 
 /* Feature  */
 .strengths{
-	width: 980px;
+	max-width: 980px;
 }
 .strength{
-	float: left;
 	width: 320px;
 	text-align: center;
 }
@@ -114,17 +113,17 @@ header a{
 	font-size: 60px;
 }
 .strength span{
+	font-weight: bold;
 	font-size: 20px;
 	line-height: 40px;
 }
 
 /* Profile  */
 .man{
-	width: 1024px;
+	max-width: 1024px;
 }
 .introduction{
-	float: left;
-	width: 512px;
+	max-width: 512px;
 }
 .man-image{
 	border-radius: 50%;
@@ -134,10 +133,9 @@ header a{
 
 /* Contact  */
 .addresses{
-	width: 800px;
+	max-width: 800px;
 }
 .address{
-	float: left;
 	width: 400px;
 }
 .address-title{
@@ -157,4 +155,22 @@ footer{
 	color: #FAFAFA;
 	text-align: center;
 	line-height: 60px;
+}
+
+/* レスポンシブ対応  */
+@media screen and (max-width:767px){
+	header ul{
+		display: none;
+	}
+	.float{
+		float: none;
+		margin: 30px auto;
+	}
+	.body{
+		margin-top: 60px;
+	}
+	.container{
+		width: 90%;
+		margin: 0 auto;
+	}
 }
